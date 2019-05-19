@@ -87,12 +87,19 @@ return `
                    <td colspan="2">
                       <table>
                          <tr>
-                            <td class="title"><img  src="https://i2.wp.com/cleverlogos.co/wp-content/uploads/2018/05/reciepthound_1.jpg?fit=800%2C600&ssl=1"
-                               style="width:100%; max-width:156px;"></td>
-                            <td>
-                               Datum: ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
-                            </td>
+                            <td class="title"  align = "center"><img  src="http://ucsc.cmb.ac.lk/wp-content/uploads/2016/03/UCSC_logo.jpg"
+                               style="width:100%; max-width:156px;" ></td>
+                           
                          </tr>
+                         <h1 align = "center"><font size="5">UNIVERSITY OF COLOMBO SCHOOL OF COMPUTING</font></h1>
+                         <h1 align = "center"><font size="5">Academic and Publication Branch</font></h1>
+                         <h1 align = "center"><strong><font size="4">Request For Hall Booking</font></strong></h1>
+                         <h1 align = "center"><font size="3">W001/W002/S104/S203/E401(4th Floor)/E205(Mini Auditorium)/E202(IRQUE Hall)</font></h1>
+                         <h1 align = "center"><font size="3">Please use single form for single lecture hall booking</font></h1>
+
+                         <td>
+                           Date: ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
+                        </td>
                       </table>
                    </td>
                 </tr>
