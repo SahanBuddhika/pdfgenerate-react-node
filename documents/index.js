@@ -98,7 +98,7 @@ return `
                          <h1 align = "center"><font size="3">Please use single form for single lecture hall booking</font></h1>
 
                          <td>
-                           Date: ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
+                          <strong> Date:</strong> ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
                         </td>
                       </table>
                    </td>
@@ -117,17 +117,29 @@ return `
                       </table>
                    </td>
                 </tr>
-                <tr class="heading">
-                   <td>Bought items:</td>
-                   <td>Price</td>
-                </tr>
+               //  <tr class="heading">
+               //     <td>Bought items:</td>
+               //     <td>Price</td>
+               //  </tr>
                 <tr class="item">
-                   <td>First item:</td>
-                   <td>${price1}$</td>
-                </tr>
-                <tr class="item">
-                   <td>Second item:</td>
+                   <td>Hall Name :</td>
                    <td>${price2}$</td>
+                </tr>
+                <tr class="item">
+                   <td>Start Time :</td>
+                   <td>${price2}$</td>
+                </tr>
+                <tr class="item">
+                <td>End Time :</td>
+                <td>${price2}$</td>
+                </tr>
+                <tr class="item">
+                <td>Reason :</td>
+                <td>${price2}$</td>
+                </tr>
+                <tr class="item">
+                <td>Discription :</td>
+                <td>${price2}$</td>
                 </tr>
              </table>
              <br />
