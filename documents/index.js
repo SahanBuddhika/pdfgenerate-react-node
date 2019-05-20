@@ -86,9 +86,10 @@ return `
                 <tr class="top">
                    <td colspan="2">
                       <table>
-                         <tr>
-                            <td class="title"  align = "center"><img  src="http://ucsc.cmb.ac.lk/wp-content/uploads/2016/03/UCSC_logo.jpg"
+                      <td class="title"  align = "center"><img  src="http://ucsc.cmb.ac.lk/wp-content/uploads/2016/03/UCSC_logo.jpg"
                                style="width:100%; max-width:156px;" ></td>
+                         <tr>
+                            
                            
                          </tr>
                          <h1 align = "center"><font size="5">UNIVERSITY OF COLOMBO SCHOOL OF COMPUTING</font></h1>
@@ -107,20 +108,15 @@ return `
                    <td colspan="2">
                       <table>
                          <tr>
-                            <td>
-                               Customer name: ${name}
-                            </td>
-                            <td>
-                               Receipt number: ${receiptId}
-                            </td>
+                           
                          </tr>
                       </table>
                    </td>
                 </tr>
-               //  <tr class="heading">
-               //     <td>Bought items:</td>
-               //     <td>Price</td>
-               //  </tr>
+                  <tr class="heading">
+                    <td></td>
+                    <td></td>
+                 </tr>
                 <tr class="item">
                    <td>Hall Name :</td>
                    <td>${price2}$</td>
@@ -130,20 +126,35 @@ return `
                    <td>${price2}$</td>
                 </tr>
                 <tr class="item">
-                <td>End Time :</td>
-                <td>${price2}$</td>
+                  <td>End Time :</td>
+                  <td>${price2}$</td>
                 </tr>
                 <tr class="item">
-                <td>Reason :</td>
-                <td>${price2}$</td>
+                  <td>Reason :</td>
+                  <td>${price2}$</td>
                 </tr>
                 <tr class="item">
-                <td>Discription :</td>
-                <td>${price2}$</td>
+                  <td>Discription :</td>
+                  <td>${price2}$</td>
                 </tr>
              </table>
+             <br/>
+             <hr/>
+             <td><font size="3"><strong>Declaration of the Applicant :</strong><font></td>
+             <br/>
+             <td>I undertake the responsibility of booking and will take care of all assets in the room during the booking.I will not change assets in the hall (technical settings or physical locations) without permission.I agree to pay compensation to UCSC due to the damages.</td>
              <br />
-             <h1 class="justify-center">Total price: ${parseInt(price1) + parseInt(price2)}$</h1>
+             <br />
+             <td>Name Of Applicant :</td>
+             <br />
+             <td>Registration Number :</td>
+             <br />
+             <td>Phone Number :</td>
+             <br />
+             <hr/>
+             <td>Approval Of Coordinator :</td>
+             <br/>
+             <td>Approval Of Director :</td>
           </div>
        </body>
     </html>
